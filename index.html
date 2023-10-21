@@ -1,272 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Excalidraw</title>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="img/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="./Assets/logo.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="main">
-      <div class="heading"><div class="text-wrapper">Excalidraw</div></div>
-      <div class="div-excalidraw">
-        <img class="image" src="img/image.png" />
-        <div class="div-lasertooloverlay"></div>
-        <img class="image" src="img/image-1.png" />
-        <div class="image">
-          <div class="overlap">
-            <div class="div-welcome-screen">
-              <img class="img" src="img/div-welcome-screen-center-logo.svg" />
-              <div class="div-wrapper">
-                <p class="div">
-                  All your data is saved locally in your browser.
-                </p>
-              </div>
-              <div class="div-welcome-screen-2">
-                <div class="button">
-                  <img
-                    class="div-welcome-screen-3"
-                    src="img/div-welcome-screen-menu-item-icon-3.svg"
-                  />
-                  <div class="div-welcome-screen-4">
-                    <div class="text-wrapper-2">Open</div>
-                  </div>
-                  <div class="div-welcome-screen-5">
-                    <div class="text-wrapper-3">Ctrl+O</div>
-                  </div>
-                </div>
-                <div class="button">
-                  <img
-                    class="div-welcome-screen-3"
-                    src="img/div-welcome-screen-menu-item-icon-2.svg"
-                  />
-                  <div class="div-welcome-screen-4">
-                    <div class="text-wrapper-4">Help</div>
-                  </div>
-                  <div class="div-welcome-screen-6">
-                    <div class="text-wrapper-5">?</div>
-                  </div>
-                </div>
-                <button class="button-2">
-                  <img
-                    class="div-welcome-screen-7"
-                    src="img/div-welcome-screen-menu-item-icon-1.svg"
-                  />
-                  <div class="div-welcome-screen-8">
-                    <div class="text-wrapper-6">Live collaboration...</div>
-                  </div>
-                </button>
-                <div class="link">
-                  <img
-                    class="div-welcome-screen-7"
-                    src="img/div-welcome-screen-menu-item-icon.svg"
-                  />
-                  <div class="div-welcome-screen-8">
-                    <a
-                      href="https://plus.excalidraw.com/plus"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      ><div class="text-wrapper-7">Try Excalidraw Plus!</div></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <footer class="footer">
-              <div class="div-wrapper-2">
-                <div class="div-2">
-                  <div class="section">
-                    <div class="heading-2">
-                      <div class="text-wrapper-8">Canvas actions</div>
-                    </div>
-                    <div class="div-stack">
-                      <div class="div-stack-2">
-                        <img class="img-2" src="img/button-zoom-out.svg" />
-                        <div class="button-reset-zoom-wrapper">
-                          <div class="button-reset-zoom">
-                            <div class="text-wrapper-9">100%</div>
-                          </div>
-                        </div>
-                        <img class="img-2" src="img/button-zoom-in.svg" />
-                      </div>
-                    </div>
-                    <img
-                      class="div-undo-redo"
-                      src="img/div-undo-redo-buttons-margin.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-              <img
-                class="div-footer-center"
-                src="img/div-footer-center-margin.svg"
-              />
-              <div class="div-layer-ui-wrapper">
-                <div class="div-3">
-                  <img class="img-3" src="img/button-help.svg" />
-                  <div class="div-virgil">
-                    <div class="overlap-group">
-                      <div class="div-4">
-                        <div class="text-wrapper-10">Shortcuts &amp;</div>
-                        <div class="text-wrapper-11">help</div>
-                      </div>
-                      <img class="img-margin" src="img/img-margin.svg" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </footer>
-            <div class="div-app-menu-wrapper">
-              <div class="div-app-menu">
-                <div class="div-stack-3">
-                  <div class="div-2">
-                    <img class="img-3" src="img/button-2.svg" />
-                    <div class="div-virgil-2">
-                      <img class="img-4" src="img/img-11.svg" />
-                      <div class="div-welcome-screen-9">
-                        <div class="text-wrapper-10">
-                          Export, preferences, languages, ...
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="section-2">
-                  <div class="div-3">
-                    <div class="div-virgil-3">
-                      <img class="img-5" src="img/img-10.svg" />
-                      <div class="div-welcome-screen-10">
-                        <div class="text-wrapper-10">Pick a tool &amp;</div>
-                        <div class="text-wrapper-12">Start drawing!</div>
-                      </div>
-                    </div>
-                    <div class="div-2">
-                      <div class="div-island-wrapper">
-                        <div class="div-island">
-                          <div class="div-hintviewer">
-                            <div class="span">
-                              <p class="p">
-                                To move canvas, hold mouse wheel or spacebar
-                                while dragging, or use the hand tool
-                              </p>
-                            </div>
-                          </div>
-                          <div class="heading-3">
-                            <div class="text-wrapper-8">Shapes</div>
-                          </div>
-                          <div class="div-stack-4">
-                            <div class="div-app-toolbar">
-                              <div class="div-app-toolbar-2"></div>
-                            </div>
-                            <div class="div-app-toolbar-wrapper">
-                              <div class="div-app-toolbar-2"></div>
-                            </div>
-                            <img class="button-3" src="img/button-1.svg" />
-                            <img class="label" src="img/label-1.svg" />
-                            <img class="label-2" src="img/label.svg" />
-                            <div class="div-toolicon-icon-wrapper">
-                              <div class="div-toolicon-icon">
-                                <img class="img-6" src="img/img-9.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-13">1</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-3">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-8.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">2</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-4">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-7.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">3</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-5">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-6.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">4</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-6">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-5.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">5</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-7">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-4.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">6</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-8">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-3.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">7</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-9">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-2.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">8</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-10">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img-1.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">9</div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="label-11">
-                              <div class="div-toolicon-icon-2">
-                                <img class="img-6" src="img/img.svg" />
-                                <div class="span-toolicon">
-                                  <div class="text-wrapper-14">0</div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="div-layer-ui-wrapper-2">
-                  <img class="button-4" src="img/button.svg" />
-                  <div class="div-sidebar-trigger-wrapper">
-                    <div class="div-sidebar-trigger">
-                      <img class="img" src="img/div.svg" />
-                      <div class="div-wrapper-2">
-                        <div class="text-wrapper-15">Library</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <div id="root">
+      <div id="nav">
+        <div class="left">
+          <button class="btn1 material-symbols-outlined menu">menu</button>
+        </div>
+        <div class="center">
+          <div class="lock btn">
+            <button class="ToolIcon__icon">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                role="img"
+                viewBox="0 0 20 20"
+                class=""
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <g>
+                  <path
+                    d="M13.542 8.542H6.458a2.5 2.5 0 0 0-2.5 2.5v3.75a2.5 2.5 0 0 0 2.5 2.5h7.084a2.5 2.5 0 0 0 2.5-2.5v-3.75a2.5 2.5 0 0 0-2.5-2.5Z"
+                    stroke="currentColor"
+                    stroke-width="1.25"
+                  ></path>
+                  <path
+                    d="M10 13.958a1.042 1.042 0 1 0 0-2.083 1.042 1.042 0 0 0 0 2.083Z"
+                    stroke="currentColor"
+                    stroke-width="1.25"
+                  ></path>
+                  <mask
+                    id="UnlockedIcon"
+                    maskUnits="userSpaceOnUse"
+                    x="6"
+                    y="1"
+                    width="9"
+                    height="9"
+                    style="mask-type: alpha"
+                  >
+                    <path
+                      stroke="none"
+                      d="M6.399 9.561V5.175c0-.93.401-1.823 1.116-2.48a3.981 3.981 0 0 1 2.693-1.028c1.01 0 1.98.37 2.694 1.027.715.658 1.116 1.55 1.116 2.481"
+                      fill="#fff"
+                    ></path>
+                  </mask>
+                  <g mask="url(#UnlockedIcon)">
+                    <path
+                      stroke="none"
+                      d="M5.149 9.561v1.25h2.5v-1.25h-2.5Zm5.06-7.894V.417v1.25Zm2.559 3.508v1.25h2.5v-1.25h-2.5ZM7.648 8.51V5.175h-2.5V8.51h2.5Zm0-3.334c0-.564.243-1.128.713-1.561L6.668 1.775c-.959.883-1.52 2.104-1.52 3.4h2.5Zm.713-1.561a2.732 2.732 0 0 1 1.847-.697v-2.5c-1.31 0-2.585.478-3.54 1.358L8.36 3.614Zm1.847-.697c.71 0 1.374.26 1.847.697l1.694-1.839a5.231 5.231 0 0 0-3.54-1.358v2.5Zm1.847.697c.47.433.713.997.713 1.561h2.5c0-1.296-.56-2.517-1.52-3.4l-1.693 1.839Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </button>
+            <p class="tooltext"></p>
+          </div>
+          <div class="line"></div>
+          <div class="pan btn">
+            <button class="ToolIcon__icon">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                role="img"
+                viewBox="0 0 24 24"
+                class=""
+                fill="none"
+                stroke-width="2"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <g stroke-width="1.25">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M8 13v-7.5a1.5 1.5 0 0 1 3 0v6.5"></path>
+                  <path d="M11 5.5v-2a1.5 1.5 0 1 1 3 0v8.5"></path>
+                  <path d="M14 5.5a1.5 1.5 0 0 1 3 0v6.5"></path>
+                  <path
+                    d="M17 7.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+            <!--<button class="btn material-symbols-outlined">pan_tool</button>-->
+            <p class="tooltext"></p>
+          </div>
+
+          <div class="arrow btn">
+            <button class="btn material-symbols-outlined">
+              arrow_selector_tool
+            </button>
+            <p class="tooltext">1</p>
+          </div>
+          <div class="square btn">
+            <button class="btn material-symbols-outlined">crop_square</button>
+            <p class="tooltext">2</p>
+          </div>
+          <div class="rhombus btn">
+            <button class="btn material-symbols-outlined">
+              <img src="./Assets/rhombus.png" title="rhombus" alt="rhombus" />
+            </button>
+            <p class="tooltext">3</p>
+          </div>
+          <div class="circle btn">
+            <button class="btn material-symbols-outlined">brightness_1</button>
+            <p class="tooltext">4</p>
+          </div>
+          <div class="rightarrow btn">
+            <button class="btn material-symbols-outlined">east</button>
+            <p class="tooltext">5</p>
+          </div>
+          <div class="minus btn">
+            <button class="btn material-symbols-outlined">remove</button>
+            <p class="tooltext">6</p>
+          </div>
+          <div class="pencil btn">
+            <button class="ToolIcon__icon" id="pencil">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                role="img"
+                viewBox="0 0 20 20"
+                class=""
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <g stroke-width="1.25">
+                  <path
+                    clip-rule="evenodd"
+                    d="m7.643 15.69 7.774-7.773a2.357 2.357 0 1 0-3.334-3.334L4.31 12.357a3.333 3.333 0 0 0-.977 2.357v1.953h1.953c.884 0 1.732-.352 2.357-.977Z"
+                  ></path>
+                  <path d="m11.25 5.417 3.333 3.333"></path>
+                </g>
+              </svg>
+            </button>
+            <!--<button class="btn material-symbols-outlined">edit</button>-->
+            <p class="tooltext">7</p>
+          </div>
+          <div class="text btn">
+            <button class="btn material-symbols-outlined">
+              <img src="./Assets/a.png" title="text" alt="text" />
+            </button>
+            <p class="tooltext">8</p>
+          </div>
+          <div class="photo btn">
+            <button class="btn material-symbols-outlined">photo</button>
+            <p class="tooltext">9</p>
+          </div>
+          <div class="eraser btn">
+            <button class="btn material-symbols-outlined">ink_eraser</button>
+            <p class="tooltext">0</p>
+          </div>
+          <div class="line"></div>
+          <div class="category btn">
+            <button class="btn material-symbols-outlined">category</button>
+            <p class="tooltext"></p>
+          </div>
+          <input type="color" id="color-picker" />
+        </div>
+        <div class="right">
+          <div class="right1">
+            <button class="live-collab-btn">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                role="img"
+                viewBox="0 0 24 24"
+                class=""
+                fill="none"
+                stroke-width="2"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <g stroke-width="1.5">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                </g>
+              </svg>
+            </button>
+            <!--<button class="btn2 material-symbols-outlined group">group</button>-->
+            <div class="right2">
+              <button class="btn3 material-symbols-outlined">
+                import_contacts
+              </button>
+              <p>Library</p>
             </div>
           </div>
         </div>
       </div>
+      <canvas id="canvas"></canvas>
+      <div id="bottom">
+        <div class="bottom1">
+          <button class="btn4 material-symbols-outlined">remove</button>
+          <button class="btn4 reset-zoom-button">100 %</button>
+          <button class="btn4 material-symbols-outlined">add</button>
+        </div>
+        <div class="bottom2">
+          <button class="btn4 material-symbols-outlined">undo</button>
+          <button class="btn4 material-symbols-outlined">redo</button>
+        </div>
+        <div class="bottom3">
+          <button class="btn5 material-symbols-outlined">verified_user</button>
+          <button class="btn4 material-symbols-outlined">help</button>
+        </div>
+      </div>
     </div>
+    <script src="./index.js"></script>
+    <script src="./freehand.js"></script>
   </body>
 </html>
